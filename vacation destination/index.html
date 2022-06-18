@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="header">
+     <h1>Vacation destinations wish list</h1>
+     <h6>Do younfound exciting place for visit? use the form below to add to wish list.</h6>
+    </header>
+    <main id="main">
+       
+        <form id="destnation_detail">
+            <label>Distnation name</label>
+            <input type="text" required id="name" placeholder="enter destination name ">
+            <label>Location</label>
+            <input type="text" required id="location" placeholder="enter the location">
+            <label>Photo</label>
+            <input type="url" id="image" placeholder="enter an image url of the place" required >
+            <label>Discription</label>
+            <textarea name="discription" required id="comment" cols="20" rows="1" placeholder="discribe the destination"></textarea>
+            <button type="submit" id="final" >Add To List</button>
+        </form>
+      
+       <article >
+        <h2 id="title">Wish Lists</h5>
+       <div id="destination_container" class="destination_container">
+         <!-- <div class="card">
+          <img src="pic.png" alt="imagess" id="pic">
+          <div class="card-min">
+          <h3>place name</p>
+          <h4>location</p>
+          <p>discription</p>
+          <button id="remove">REMOVE</button>
+          </div>
+         </div> -->
+       </div>
+    </article>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
